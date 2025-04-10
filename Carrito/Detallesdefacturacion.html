@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles de Facturacion</title>
+</head>
+<body>
+    <h2>Carrito de compras</h2>
+        <p>Tu carrito esta vacio</p>
+        <a href="/Index.html">Volver a la tienda</a>
+    <header>
+        <h1>Detalles de Facturación</h1>
+        <p>Tus datos personales se utilizarán para procesar tu pedido</p>
+</header>
+<section>
+    <form action="Success.html"method="GET">
+<label for="Nombre">Nombre</label>
+<input type="text" id="Nombre" required><br><br>
+
+<label for="Apellido">Apellido</label>
+<input type="text" id="Apellido" name="Apellido" required><br><br>
+
+<label for="Direccion-de-entrega">Dirección de Entrega</label>
+<input type="text" id="Direccion-de-entrega" name="Direccion-de-entrega" required><br><br>
+
+<label for="Telefono-remitente">Teléfono Remitente</label>
+<input type="tel" id="telefono-remitente" name="telefono-remitente" pattern="[0-9"] required><br><br>
+
+<label for="Nombre-destinatario">Nombre Destinatario</label>
+<input type="text" id="Nombre-destinatario" name="Nombre-destinatario" required><br><br>
+
+<label for="Telefono-destinatario">Teléfono Destinatario</label>
+<input type="tel" id="Telefono-destinatario" name="Telefono-destinatario"><br><br>
+
+<label for="Fechayhora-de-entrega">Fecha y Hora de Entrega</label>
+<input type="datetime-local" id="Fechayhora-de-entrega" name="Fechayhora-de-entrega" required><br><br>
+
+<label for="Mensaje-para-tarjeta">Mensaje para la Tarjeta</label>
+<textarea id="Mensaje-para-tarjeta" name="Mensaje-para-tarjeta" rows="8" cols="40"></textarea><br><br>
+
+<label for="Direccion-correoelectronico">Dirección Correo Electrónico</label>
+<input type="email" id="Direccion-correoelectronico" name="Direccion-correoelectronico" required><br><br>
+
+</section>
+    
+</body>
+</html>
